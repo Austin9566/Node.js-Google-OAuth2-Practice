@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  # 定義 Node.js-Google-OAuth2 服務
+  nodejs-google-oauth2:
+    container_name: nodejs-google-oauth2
+    image: node:slim
+    ports:
+      - 3000:3000
+    volumes:
+      - ./Node.js-Google-OAuth2:/home # 映射本機目錄到容器內部
+    stdin_open: true # 開啟標準輸入，允許互動式運行
+    tty: true # 使用終端機，讓互動更友好
+
+  # 定義 MongoDB 服務
+  mongodb:
+    container_name: mongodb
+    image: mongo:latest
+    ports:
+      - 27017:27017
+    volumes:
+      - ./mongodb-data:/data/db # 映射本機目錄到容器內部，保存數據

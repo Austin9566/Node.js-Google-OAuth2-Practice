@@ -1,0 +1,152 @@
+db.students.find()
+db.students.insertMany([ { name: 'Austin', age: 23, major: 'cs', scholarship: { merit: 3000, other: 3000 } }, { name: 'Jenny', age: 23, major: 'Department of Money and Banking', scholarship: { merit: 5000, other: 2500 } }, { name: 'Vivian', age: 23, major: 'Play', scholarship: { merit: 1500, other: 3000 } }, { name: 'Jason', age: 21, major: 'sing', scholarship: { merit: 3500, other: 0 } }])
+db.students.find()
+db.students.deleteMany({ name: { $in: ["Austin", "Jenny", "Vivian", "Jason"] } })
+db.students.find()
+db.collectionName.deleteMany({ name: { $in: ["Austin", "Jenny", "Jason"] } })
+db.students.deleteMary({name:"Austin"},{name:"Jenny"},{name:"Jason"})
+db.studnets.remove({ $or: [ { _id: ObjectId("64a7e2346cc456fd0664fa7b") }, { _id: ObjectId("64b18167c8064f2b06202f67") }, { _id: ObjectId("64b18ce66c3faa60f01e4c2c") }] })
+db.students.find()
+db.studnets.remove({ $or: [ { _id: ObjectId("64a7e2346cc456fd0664fa7b") }, { _id: ObjectId("64b18167c8064f2b06202f67") }, { _id: ObjectId("64b18ce66c3faa60f01e4c2c") }] })
+db.students.find()
+db.collectionName.remove({ $or: [ { _id: ObjectId("64a7e2346cc456fd0664fa7b") }, { _id: ObjectId("64b18167c8064f2b06202f67") }, { _id: ObjectId("64b18ce66c3faa60f01e4c2c") }] })
+db.students.find()
+show collections
+use exampleDB
+show dbs
+db.students.find();
+use exampleDB
+show dbs
+db.students.find();
+db.student.find();
+show collections
+show collection
+show collections
+use exampleDB
+show dbs
+exit
+show dbs
+db.students.find()
+show collections
+db.students.deleteMany({name:"Eva"})
+db.students.deleteMany({name:"eva"})
+db.students.deleteMany({name:"Eva"})
+db.students.delete({name:"Eva"})
+db.students.find()
+db.students.insertOne({name:"Jenny",age:23,majoy:"Department of Money and Banking",scholarship: { merit: 5000, other: 2500 }})
+db.students.insertOne({name:"Austin",age:23,majoy:"cs",scholarship: { merit: 3000, other: 1500 }})
+show collections
+db.students.find()
+db.students.fund()
+db.students.find()
+db.students.fund()
+db.studnets.fund()
+show collections
+db.studnets.drop()
+show collections
+db.studnes.drop()
+show collections
+show dbs
+show collections
+show dbs
+show collections
+show dbs
+show collections
+db.students.drop();
+db.students.find()
+db.students.deleteOne({name:"jj"})
+db.students.delete({name:"jj"})
+db.students.find()
+db.students.insertOne({name:"jj",age:25,majoy:"Trash",schlarship: { merit: 1000, other: 0 }})
+db.students.insertOne({name:"Eva",age:25,majoy:"Trash",scholarship: { merit: 1000, other: 0 }})
+db.students.insertOne({name:"Jenny",age:23,majoy:"Department of Money and Banking",scholarship: { merit: 5000, other: 2500 }})
+db.students.insertOne({name:"Austin",age:23,majoy:"cs",scholarship: { merit: 3000, other: 1500 }})
+show collections
+db.students.drop()
+db.students.drop
+db.students.deleteMany()
+db.students.deleteMary()
+db.students.find()
+db.students.drop
+db.students.find()
+db.students.find
+show collections
+db.students.frop
+drop.students
+drop students
+show collections
+show collextions
+use exampleDB
+show dbs
+db.system.version.find()
+show collections
+db.system.users.find()
+use admin
+drop example
+show dbs
+shwo dbs
+db.students.find()
+show collections
+db.find()
+db.collection.find()
+show dbs
+use exampleDB
+use example
+show dbs
+whow dbs
+db.students.find()
+db.students.insertOne({name:"Eva",age:25,majoy:"Trash",schlarship: { merit: 1000, other: 0 }})
+db.students.insertOne({name:"Jenny",age:23,majoy:"Department of Money and Banking",schlarship: { merit: 5000, other: 2500 }})
+db.students.find()
+db.students.find({name:"Austin"})
+db.students.deleteOne({name:"Austin"})
+db.students.find({name:"Austin"})
+db.students.deleteOne({Name:"Austin"})
+db.students.find({name:"Austin"})
+db.students.find({name:"Austi"})
+db.students.insertOne({name:"Austin",age:23,majoy:"cs",schlarship: { merit: 3000, other: 1500 }})
+db.students.find({name:"Austin"})
+db.students.find({name:"Austi"})
+db.students.updateOne({name:"Austin"},{$set:{ schlarship: { merit: 3000, other: 1500 } } })
+db.students.updateOne({name:"Austin"},{schlarship:{merit:3000,other:1500}})
+db.students.find({name:"Austin"})
+db.student.find({name:"Austin"})
+db.student.find({name:"austin"})
+db.students.insertOne({name:"Austin",age:23,majoy:"cs",schlarship:{}})
+use exampleDB
+show dbs
+exit
+show dbs
+show db
+db.dropDatabase()
+use example
+show dbs
+db.deleteOne.example
+db
+rm example
+show dbs
+--help
+showdatabases
+showdatabase
+showDB()
+showdb
+exit
+ip a
+db.collection.find({name:"Austin"})
+db.collection.find({name:'Austin'})
+db.collection.find({age:22})
+db.collection.find({name:Austin})
+db.collection.find(name:Austin)
+db.collection.insertOne({name: "Austin", age: 22})
+example> db.collection.insertOne({name: "Austin", age: 22})
+db.collection.insertOne({name:Austin,age:22})
+use example
+show dbs
+use local
+show dbs
+use example
+ls
+use example
+show dbs
+show
+showdb
