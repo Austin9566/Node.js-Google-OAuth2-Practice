@@ -13,4 +13,15 @@
 docker-compose up -d
 ```
 
-#### 2. 測試 Node.js-Google-OAuth2 功能
+#### 2. 所用的 Node.js 套件
+
+| 套件名稱 | Version |
+|-------|-------|
+| express | 4.18.2 |
+| ejs | 3.1.9 |
+| mongoose | 7.4.0 |
+| dotenv | dotenv@16.3.1|
+| passport-google-oauth20 | 2.0.0 |
+| passport | 0.6.0 |
+
+#### 3. 測試 Node.js-Google-OAuth2 功能

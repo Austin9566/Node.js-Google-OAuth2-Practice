@@ -1,3 +1,19 @@
+db.users.find()
+show collections
+use GoogleDB
+show dbs
+exit
+db.dropDatabase()
+use GoogleDB
+db.dropDatabase()
+show dbs
+db.dropDatabase()
+use GoogleDB
+show dbs
+db.dropDatabase()
+drop use GoogleDBGoogleDB
+drop GoogleDB
+show dbs
 db.students.find()
 db.students.insertMany([ { name: 'Austin', age: 23, major: 'cs', scholarship: { merit: 3000, other: 3000 } }, { name: 'Jenny', age: 23, major: 'Department of Money and Banking', scholarship: { merit: 5000, other: 2500 } }, { name: 'Vivian', age: 23, major: 'Play', scholarship: { merit: 1500, other: 3000 } }, { name: 'Jason', age: 21, major: 'sing', scholarship: { merit: 3500, other: 0 } }])
 db.students.find()

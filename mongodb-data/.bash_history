@@ -11,3 +11,5 @@ ls
 cd /home/
 ls
 exit
+mongosh
+exit
